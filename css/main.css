@@ -1,0 +1,98 @@
+.cartegory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.cartegory_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(177, 175, 175, 0.5);
+  border-radius: 15px;
+  padding: 15px 20px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.cartegory_icons img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_list {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0px;
+}
+
+.item_list_image {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.item_list_image img {
+  width: 150px;
+  height: 150px;
+}
+
+.item_list_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.item_list_info_locnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin: 10px 0px;
+}
+
+.item_list_info_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#item_location {
+  margin-right: 15px;
+}
+
+.item_list_info_price {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.write-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color: tomato;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  position: fixed; /* 화면에 고정 */
+  bottom: 150px; /* 화면 아래에서 20px */
+  right: 20px; /* 화면 오른쪽에서 20px */
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
